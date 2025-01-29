@@ -127,7 +127,7 @@ body {
 .section-playlist__content .section-playlist__button{
     display: flex;
     justify-content: center;
-    background-color: #fff;
+    background: linear-gradient(to right, #EB679D, #B750EA);
     color: #000;
     border-radius: 20px;
     font-size: 12px;
@@ -166,4 +166,45 @@ body {
     margin: 8px;
     padding: 8px;
     border-radius: 20px;
+}
+
+.disclaimer-premium{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #EB679D, #B750EA);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.disclaimer-premium .text{
+    flex-shrink: 0;
+}
+
+.disclaimer-premium .disclaimer-premium__title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.disclaimer-premium .disclaimer-premium__subtitle{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.disclaimer-premium button{
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
 }
